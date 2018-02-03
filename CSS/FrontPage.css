@@ -1,0 +1,30 @@
+body { background-color:#fff9ee; }
+
+header{
+	background-color: #ccb666;
+	
+	margin: 70px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	
+	padding: 60px;
+
+	text-align: center;
+	
+	font-size: 30px;	
+	font-weight: bold;
+}
+
+.description{
+	outline-style: solid;
+	outline-color: #a53300;
+}
+
+.links{
+	text-align: center;
+}
+
+.versionNum{
+	font-size:11px;
+	color: #ccb666;
+}
