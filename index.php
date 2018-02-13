@@ -1,20 +1,11 @@
-<!DOCTYPE html>
-<html>
-	<head>
-		<meta charset="ISO-8859-1">
-		<link rel="stylesheet" href="CSS/FrontPage.css">
-		<title>Divine Blood</title>
-	</head>
-	<body>
-		<header>Divine Blood</header>	
+<?php 
+	require('header.html');
+?>		
 
-		<div class="links">
-		<a href = "http://www.drivethrurpg.com/browse/pub/4131/Thrythlind-Books-and-Games/subcategory/8144_8666/Divine-Blood">Thrythlind Books and Games</a>  ||  <a href = "https://www.amazon.com/Luke-Green/e/B00ECEF3BG/ref=sr_ntt_srch_lnk_1?qid=1516662468&sr=8-1">Books by Luke Green</a>
-		</div>
-		
-			<div class="description">
+<?php
+echo '			<div class="description">
 				<p>
-					In an alternate universe, in the ancient past, the Gods and Demons beheld the mortal realm. They larned of humanity, and begain to live amongst them, guiding them. And watching, to see what Humanity would become.
+					In an alternate universe, in the ancient past, the Gods and Demons beheld the mortal realm. They learned of humanity, and begain to live amongst them, guiding them. And watching, to see what Humanity would become.
 				</p>
 				
 				<p>
@@ -31,13 +22,13 @@
 				</p>
 				
 				<p>	
-	    			All these stories have come together, to collide. Even if they don't know who the others are. Humanity is evolving, and no one knows what it will become. A pity evolution can be...inconvenient.
+	    			All these stories have come together, to collide. Even if they don\'t know who the others are. Humanity is evolving, and no one knows what it will become. A pity evolution can be...inconvenient.
 			   </p>
 			   </div>
 			   
 		   <div class="description">
 			   <p>
-				   Divine Blood is an Urban Fantasy novel by Luke Green, alias Thrythlind, which takes place in a world that diverged from our own. As with many Urban Fantasy worlds, monsters and beasts not known to humanity live amongst us. However, there are a few unique traits that separate it from the works of Jim Butcher, or others. In most other works, the Supernatural races are just BETTER then humans. THough, of course, a well-trained human can defeat a being above his weight class, where the tension resides. In Divine Blood, supernatural beings are often civilians themselves. They themselves have to be 'well trained' to be considered people ready to fight in large-scale conflicts.
+				   Divine Blood is an Urban Fantasy novel by Luke Green, alias Thrythlind, which takes place in a world that diverged from our own. As with many Urban Fantasy worlds, monsters and beasts not known to humanity live amongst us. However, there are a few unique traits that separate it from the works of Jim Butcher, or others. In most other works, the Supernatural races are just BETTER then humans. THough, of course, a well-trained human can defeat a being above his weight class, where the tension resides. In Divine Blood, supernatural beings are often civilians themselves. They themselves have to be \'well trained\' to be considered people ready to fight in large-scale conflicts.
 				</p>
 	
 				<p>
@@ -56,9 +47,9 @@
 				   We hope you enjoy Divine Blood, a novel available in paperback and Kindle, that is perfect for reading while waiting at the bus station, or at an airport terminal near you.
 				</p>		    
 			</div>
+			';
+		?>
 			
-			<div class="versionNum">
-				<p>Version Num: 1.0.0.0</p>
-			</div>
-	</body>
-</html>
+<?php 
+	require('footer.html');
+?>	
